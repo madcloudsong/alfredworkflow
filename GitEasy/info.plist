@@ -163,6 +163,7 @@
 
 if [ ${dirPath} != "" ];then 
 cd ${dirPath}
+git add .
 git commit -a -m {query}
 echo {query}
 else
